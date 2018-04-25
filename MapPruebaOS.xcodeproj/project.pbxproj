@@ -15,6 +15,7 @@
 		AA46EC002090E94C00EA7FFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA46EBFF2090E94C00EA7FFD /* main.m */; };
 		AA46EC0A2090E94C00EA7FFD /* MapPruebaOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA46EC092090E94C00EA7FFD /* MapPruebaOSTests.m */; };
 		AA46EC152090E94C00EA7FFD /* MapPruebaOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA46EC142090E94C00EA7FFD /* MapPruebaOSUITests.m */; };
+		AA46EC242090E96000EA7FFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA46EC232090E96000EA7FFD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AA46EC102090E94C00EA7FFD /* MapPruebaOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapPruebaOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA46EC142090E94C00EA7FFD /* MapPruebaOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapPruebaOSUITests.m; sourceTree = "<group>"; };
 		AA46EC162090E94C00EA7FFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA46EC232090E96000EA7FFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA46EC242090E96000EA7FFD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +88,7 @@
 				AA46EC082090E94C00EA7FFD /* MapPruebaOSTests */,
 				AA46EC132090E94C00EA7FFD /* MapPruebaOSUITests */,
 				AA46EBEE2090E94A00EA7FFD /* Products */,
+				AA46EC222090E95F00EA7FFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +134,14 @@
 				AA46EC162090E94C00EA7FFD /* Info.plist */,
 			);
 			path = MapPruebaOSUITests;
+			sourceTree = "<group>";
+		};
+		AA46EC222090E95F00EA7FFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA46EC232090E96000EA7FFD /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    CLLocationCoordinate2D location;
+    location.latitude = 40.416776;
+    location.longitude = -3.703789;
+    MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(location, 500, 500);
+    [_mapa setRegion:region animated:NO];
 }
 
 
